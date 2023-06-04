@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+         /*home */
+.bar{
+    width: 60%;
+    padding: 60px 100px 0px 0px ;
+    text-align: right;
+    float: right;
+}
+.clr{
+    clear: both;
+}
+.bar nav a{
+    padding: 15px;
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 20px;  
+}
+#home{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.taxthome{
+    text-align: center;
+    padding: 90px;
+}
+.taxthome h3{
+    font-size: 40px;
+    color: darkgrey;
+    padding: 50px;
+}
+.taxthome h1{
+    font-size: 70px;
+    font-weight: 700;
+    color:white;
+    padding: 30px;
+    padding-bottom: 40px;
+}
+.taxthome p{
+    color: darkgrey;
+    font-size: 30px;
+}
+.btn-brown{
+    background-color:sienna;
+    border-radius: 5px;
+    padding: 15px;
+}
+.btn-white{
+    background-color:none;
+    border-radius: 5px;
+    padding: 15px;
+}
+/* end home */
+
+
+/* start about */
+#about{
+    padding-top: 40px;
+}
+.contenir{
+    width: 90%;
+    margin: auto;
+}
+.sh-imge img{
+    width: 90%;
+    /* margin-top:40px; */
+}
+.sh-imge{
+    width: 50%;
+    float: left;
+    margin-bottom: 50px;
+}
+.info{
+    margin-top: 50px;
+    padding-top: 130px;
+    text-align: center;
+    width: 50%;
+    float: right;
+}
+.info ul{
+    list-style-type: none;
+}
+
+.info  h2 {
+    font-size: 40px;
+    padding-bottom: 30px;
+
+}
+.info p{
+    padding: 30px;
+}
+.clr{
+    clear: both;
+}
+/* end about */
+
+/* start our offer */
+#our-offer{
+    background-color:rgb(236, 234, 234) ;
+    padding-bottom: 30px;
+}
+.cover-sec3{
+    width: 90%;
+    margin: auto;
+}
+
+.img-sec3{
+    margin-top: 40px;
+    width: 50%;
+    float: right;
+}
+.img-sec3 img{
+ width: 90%;
+}
+
+.t-sec3{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    padding-top: 130px;
+    text-align: center;
+}
+.t-sec3 h2{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.t-sec3 p{
+    padding: 40px;
+}
+.clr{
+    clear: both;
+}
+/* end  our offer*/
+
+/* start gallrey */
+.co-gallery{
+    width: 90%;
+    margin: auto;
+}
+.class1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.class1 h2{
+    padding-bottom: 20px;
+}
+.class2{
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+.class2 img{
+    width: 90%;
+}
+
+.class3{
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+.class3 img{
+    width: 90%;
+}
+.class4{
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+.class4 img{
+    width: 90%; 
+}
+.clr{
+    clear: both;
+}
+
+/* start blog */
+#blog{
+    background-color: rgb(225, 226, 227);
+    margin-top: 15px;
+}
+
+.con-blog{
+    margin: auto;
+    width: 90%;
+}
+.taxt-blog{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 70px;
+}
+.taxt-blog h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.taxt-blog p{
+    padding-bottom:40px  ;
+    line-height: 20px;
+}
+.taxt-blog ul{
+    text-decoration: none;
+    text-align: left;
+    padding-bottom: 40px;
+    line-height:30px ;
+}
+.ifrme-blog{
+    width: 50%; 
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.clr{
+    clear: both;
+}
+
+.ifrme-blog iframe{
+    width: 100%;
+    height: 400px;
+}
+/* end blog */
+
+/* start conact */
+
+#conact {
+
+    background-color: rgba(80, 78, 78, 0.737);
+    margin-top: 30px;
+}
+.cov-contact{
+    width: 90%;
+    margin:auto;
+}
+.sec1{
+   color: azure;
+   padding-top: 15px;
+    width: 22.5%;
+    text-align: center;
+    float: left;
+}
+
+.sec1 h3 {
+    padding-bottom: 20px;
+    padding-top:10px ;
+}
+.sec1 p{
+    line-height: 30px;
+}
+
+
+/* start sec 2 */
+.sec2{
+    
+    padding-top: 15px;
+    width: 22.5%;
+    text-align: center;
+   float: left;
+   color: azure;
+}
+
+
+.sec2 p{
+    padding-top: 15px;
+    line-height: 30px;
+
+}
+
+
+/* start sec 3 */
+.sec3{
+
+   
+    padding-top: 15px;
+     width: 22.5%;
+     text-align: center;
+     float: left;
+     color: azure;
+ }
+
+ .sec3 ul{
+    list-style-type: none;
+    
+    line-height: 40px;
+     }
+ .sec3 h3{
+    padding-bottom: 20px;
+ }
+ 
+
+ /* end sec 3 */
+
+ /* start sec 4 */
+ .sec4{
+   
+    width: 22.5%;
+    text-align: center;
+    float: left;
+    line-height: 20px;
+    color: azure;
+ }
+
+.sec4  h3{
+    padding-top: 15px;
+    padding-bottom: 20px;
+ }
+ .sec4 p{
+    line-height: 30px;
+ }
+
+.clr{
+    clear: both;
+}
+ /* end sec 4 */
+.footer{
+    background-color: rgb(74, 74, 74);
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer p{
+    padding-top: 30px;
+    color: azure;
+    padding-bottom: 10px;
+}
+ 
+
